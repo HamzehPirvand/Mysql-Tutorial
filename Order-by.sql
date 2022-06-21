@@ -1,0 +1,11 @@
+SELECT * FROM Guys
+ORDER BY City;
+
+SELECT * FROM Guys
+ORDER BY Address DESC;
+
+SELECT * FROM Guys
+ORDER BY Address ASC, LastName DESC;
+
+SELECT * FROM Guys
+ORDER BY City, PersonID;

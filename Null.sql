@@ -1,0 +1,7 @@
+SELECT City, PersonID
+FROM Guys
+WHERE City IS NULL;
+
+SELECT City, PersonID
+FROM Guys
+WHERE City IS NOT NULL;
